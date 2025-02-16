@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(to bottom right,rgb(6, 17, 48)20%,rgb(49, 76, 110)98%);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 100%;
+    padding-top: 8px;
+    height: 10px;
+    font-size: xx-large;
+    height: 55px;
+    background: rgb(231, 69, 96);
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-variant: small-caps;
+    font-weight: bold;
+    z-index: 1;
+}
+
+h2
+{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h3
+{
+    font-weight: bold;
+    color: rgb(231, 69, 96);
+}
+
+main
+{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+
+.contenedor
+{
+    padding-top: 50px;
+    margin: auto auto;
+}
+
+.flexCol
+{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.caja
+{
+    padding: 10px 25px;
+    padding-bottom: 25px;
+    border-radius: 1em;
+    background-color: rgb(28, 62, 104);
+    box-shadow: 0px 10px 20px -5px black;
+    width: 250px;
+}
+
+footer
+{
+    margin-top: 30px;
+    padding: 8.5px;
+    background:rgb(6, 17, 48) ;
+    border-top: solid 2px;
+    border-color: rgb(231, 69, 96);
+}
+
+.caja>div
+{
+    background: rgb(231, 69, 96);
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+p
+{
+    height: 60px;
+}
+
+.caja:hover
+{
+    transform: scale(1.1,1.1);
+}
